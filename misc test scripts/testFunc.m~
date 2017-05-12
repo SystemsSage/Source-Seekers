@@ -1,0 +1,7 @@
+clear all; close all;
+
+d = 3;
+[e, f] = test(d);
+fprintf('\a = %f  b = %f   c = %f', d, e, f);
+
+
